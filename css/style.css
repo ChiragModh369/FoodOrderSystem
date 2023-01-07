@@ -1,0 +1,474 @@
+*{
+    padding:0;
+	margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Section Starts Here */
+a
+{
+    color:black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size:18px;
+    border-radius:4px;
+}
+a:hover
+{
+    background-color:#f1f1f1;
+    color:skyblue;
+}
+.pad
+{
+    padding: 15px 5px;
+}
+.menu
+{
+	line-height:300%;
+     
+}
+.img-responsive
+{
+    width: 100%;
+}
+.logo
+{
+    width: 10%;
+    float: left;	
+}
+.menu ul
+{
+    list-style-type: none;
+}
+.menu ul li
+{
+	display:inline;
+	padding:1%;
+	font-weight:bold;
+
+}
+.text-right
+{
+    text-align: right;	
+}
+.container
+{
+    width: 94%;
+    margin: 0;
+    padding: 1%;
+}
+.text-center
+{
+	text-align:center;
+}
+.clearfix
+{
+    clear: both;
+    float: none;
+}
+.error
+{
+    padding: 2%;
+    color: red;
+}
+.success
+{
+    padding: 2%;
+    color: green;
+}
+
+
+
+ /* Footer Section Starts Here  */
+.container
+{
+	width:94%;
+	margin:0 auto;
+	padding:1%; 
+	
+}
+
+.social
+{
+	padding: 2% 0;
+}
+.social ul
+{
+    list-style-type: none;
+}
+.social ul li
+{
+    display: inline;
+    padding: 1%;
+}
+
+/*  Footer Section Ends  */
+
+/*  Food Search Starts  */
+
+.food-search
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn
+{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary
+{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover
+{
+    color: white;
+    background-color: #ff4757;
+}
+
+.food-menu
+{
+	padding: 20% 0;
+}
+.food-menu-box{
+	width: 90%;
+	padding: 5%;
+	margin-bottom: 5%;
+}
+
+/* CSS Starts For Categories */
+.categories
+{
+    padding: 4% 0;
+}
+.categories
+{
+	padding: 5% 0;
+}
+.box-3
+{
+    width: 28%;
+    float: left;
+    margin: 50px;
+}
+
+.img-responsive
+{
+    width: 100%;
+}
+h2
+{
+	margin-bottom: 10%;
+}
+h2
+{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3
+{
+    font-size: 1.5rem;
+}
+.img-curve
+{
+    border-radius:15px;
+}
+.text-white
+{
+    color: white;
+}
+.float-container
+{
+    position: relative;
+}
+.float-text
+{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/* CSS for Food Menu */
+.food-menu
+{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-desc
+{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price
+{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail
+{
+    font-size: 1rem;
+    color: #747d8c;
+}
+.food-menu-box
+{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img
+{
+    width: 20%;
+    float: left;
+}
+
+/*  Food Order Section Starts Here */
+.order
+{
+	width:50%;
+	margin:0 auto;
+}
+fieldset
+{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.input-responsive
+{
+	width:96%;
+	padding:1%;
+	margin-bottom:3%;
+	border:none;
+	border-radius:5px;
+	font-size:1rem;
+}
+.order-label
+{
+	margin-bottom:1%;
+	font-weight:bold;
+}
+
+.img-responsive
+{
+    width: 100%;
+}
+.img-curve
+{
+    border-radius:15px;
+}
+.food-menu-img
+{
+    width: 20%;
+	float: left;
+}
+.food-menu-desc
+{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price
+{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.btn
+{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary
+{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+/* Food Order Section Ends Here */
+
+/* Login Page CSS */
+.hero
+{
+	height:100%;
+	width:100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/Login/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box
+{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+    overflow: hidden;
+}
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+#btn 
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons
+{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img
+{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group
+{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box
+{
+    margin: 30px 10px 30px 0;
+}
+span
+{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login
+{
+    left: 50px;
+}
+#register
+{
+    left: 450px;
+}
+
+/* Page Loader CSS */
+
+/* #preloader
+{
+    background: #000 url(../images/Loading/loader.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+} */
+
+/* .content
+{
+    display: none;
+}
+.loader
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #16191e;
+    position: absolute;
+}
+.loader>div
+{
+    height: 100px;
+    width: 100px;
+    border: 15px solid #45474b; 
+    border-top-color: #2a88e6;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+}
+@keyframes spin
+{
+    100%
+    {
+        transform: rotate(360deg);
+    }
+} */
